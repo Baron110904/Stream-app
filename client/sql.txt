@@ -1,0 +1,18 @@
+delete all user = TRUNCATE TABLE nom_de_la_table RESTART IDENTITY CASCADE;
+
+select_all user = SELECT * FROM public.users
+                    ORDER BY id ASC ;
+
+
+
+{
+    "user_id": "1",
+    "titre": "Idgaf",
+    "categorie": "Pop",
+    "format": "MP3",
+    "lyrics": "azertyuiopmlkjhgfdsqwxcvbn",
+    "status": 1,
+    "cover": "gfds.png",
+    "audio": "rdsq.mp3",
+    "date": "10/04/06"
+}
